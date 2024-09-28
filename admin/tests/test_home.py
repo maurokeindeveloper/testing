@@ -8,4 +8,4 @@ client = app.test_client()
 def test_home():
     response = client.get("/")
     assert 200 == response.status_code
-    assert "Hola Flask!" in str(response.data)
+    assert "<h1>Inicio</h1>" in str(response.data)
