@@ -1,0 +1,83 @@
+/* Basic reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS file to center all elements on the page */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* Horizontally centers content */
+    align-items: center;
+    /* Vertically centers content */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* Ensures elements are stacked vertically */
+    text-align: center;
+    /* Centers text horizontally */
+}
+
+body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    ;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Typography */
+h1,
+h1,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+/* Botón de regreso a la página principal o anterior */
+.error-button {
+    display: inline-block;
+    margin-top: 1.75rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.error-button:hover {
+    background-color: #2980b9;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+th,
+td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
